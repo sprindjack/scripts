@@ -1,5 +1,5 @@
 var obj= {
-    "state": {
+  "state": {
     "com.anjlab.twitchstream": true
   }
 };
