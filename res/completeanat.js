@@ -1,14 +1,12 @@
-
-
 var obj= {
   "upgrades": [],
   "subscriptions": [],
   "content": {},
   "bypass": {
     "expire": "2099-09-01 06:48:19",
-    "comment": "ca19",
+    "comment": "ca19_trial",
     "active": true,
-    "bypass_type": "ca19",
+    "bypass_type": "ca19_trial",
     "expire_ts": "4091899699"
   },
   "settings": {},
@@ -32,6 +30,4 @@ var obj= {
     "original_application_version": "14657",
     "in_app": []
   }
-  $done({body: JSON.stringify(obj)});
-  
-  
+$done({body: JSON.stringify(obj)});
