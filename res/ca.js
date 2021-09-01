@@ -1,12 +1,14 @@
 let body= $response.body;
 var obj = JSON.parse(body);
 if (body.indexOf("expire") !=-1) {
+  /*
   obj["bypass"]["expire"] = "2099-10-19 05:14:18 Etc/GMT";
   obj["bypass"]["comment"] = "ca19";
   obj["bypass"]["active"] = true;
   obj["bypass"]["bypass_type"] = "ca19";
   obj["bypass"]["expire_ts"] = "4096070058";
- /* 
+  */
+  /* 
   obj["bypasses"]["expire"] = "2099-10-19 05:14:18 Etc/GMT";
   obj["bypasses"]["comment"] = "ca19";
   obj["bypasses"]["active"] = true;
