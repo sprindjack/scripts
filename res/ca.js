@@ -49,8 +49,16 @@ if (body.indexOf("expire") !=-1) {
   obj["products"]["ca19.trial"]["active"] = true;
   obj["products"]["ca19.trial"]["expire_dt"] = "2099-10-19 05:14:18";
   obj["products"]["ca19.trial"]["expire_ts"] = "4096070058";
+  /*
   obj["products"]["bypass"]["active"] = true;
   obj["products"]["bypass"]["expire_dt"] = "2099-10-19 05:14:18";
   obj["products"]["bypass"]["expire_ts"] = "4096070058";
+  */
+  obj["products"]["bypass"] = {
+      "active" : true,
+      "expire_dt" : "2099-10-19 05:14:18",
+      "comment" : "ca19_trial",
+      "expire_ts" : "4096070058"
+    };
   }
 $done({body: JSON.stringify(obj)});
