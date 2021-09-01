@@ -6,6 +6,7 @@ if (body.indexOf("expire") !=-1) {
   obj["bypass"]["active"] = true;
   obj["bypass"]["bypass_type"] = "ca19";
   obj["bypass"]["expire_ts"] = "4096070058";
+ /* 
   obj["bypasses"]["expire"] = "2099-10-19 05:14:18 Etc/GMT";
   obj["bypasses"]["comment"] = "ca19";
   obj["bypasses"]["active"] = true;
@@ -15,7 +16,25 @@ if (body.indexOf("expire") !=-1) {
   obj["bypasses"][0]["comment"] = "ca19";
   obj["bypasses"][0]["active"] = true;
   obj["bypasses"][0]["bypass_type"] = "ca19";
-  obj["bypasses"][0]["expire_ts"] = "4096070058";
+  obj["bypasses"][0]["expire_ts"] = "4096070058"; 
+  */
+  obj["bypasses"] = [
+    {
+      "expire": "2099-10-19 05:14:18",
+      "comment": "ca19",
+      "active": true,
+      "bypass_type": "ca19",
+      "expire_ts": "4096070058"
+    }
+  ];
+  obj["bypass"] = 
+    {
+      "expire": "2099-10-19 05:14:18",
+      "comment": "ca19",
+      "active": true,
+      "bypass_type": "ca19",
+      "expire_ts": "4096070058"
+    };
   obj["permissions"]["embeds_maker"] = true;
   obj["permissions"]["lecture_maker"] = true;
   obj["permissions"]["video_converter"] = true;
