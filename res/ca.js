@@ -1,14 +1,14 @@
 var obj= {
   "products": {
     "ca19.trial": {
-      "expire_dt": "2022-03-04 04:40:09",
-      "expire_ts": "1646368809",
+      "expire_dt": "2099-03-04 04:40:09",
+      "expire_ts": "4076023209",
       "active": true
     },
     "bypass": {
       "active": true,
-      "expire_dt": "2022-03-04 04:40:09",
-      "expire_ts": "1646368809",
+      "expire_dt": "2099-03-04 04:40:09",
+      "expire_ts": "4076023209",
       "comment": "ca19_trial"
     }
   },
@@ -71,19 +71,19 @@ var obj= {
   "upgrades": [],
   "bypasses": [
     {
-      "expire": "2022-03-04 04:40:09",
+      "expire": "2099-03-04 04:40:09",
       "comment": "ca19_trial",
       "active": true,
       "bypass_type": "ca19_trial",
-      "expire_ts": "1646368809"
+      "expire_ts": "4076023209"
     }
   ],
   "bypass": {
-    "expire": "2022-03-04 04:40:09",
+    "expire": "2099-03-04 04:40:09",
     "comment": "ca19_trial",
     "active": true,
     "bypass_type": "ca19_trial",
-    "expire_ts": "1646368809"
+    "expire_ts": "4076023209"
   },
   "show_welcome_button": false,
   "timestamp": "1646109794",
